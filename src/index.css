@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "DuplicateSans";
+  src: url("/fonts/DuplicateSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "DuplicateSansRegular";
+  src: url("/fonts/DuplicateSans.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger-menu > .ant-drawer-header {
+  display: none;
+}
