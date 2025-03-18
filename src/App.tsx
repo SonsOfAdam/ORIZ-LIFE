@@ -1,8 +1,8 @@
-import { Suspense, lazy } from "react";
+import { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AuthProvider from "@/context/AuthContext";
 import IndexPage from "@/pages/IndexPage";
-import { Private, Public } from "@/pages/AuthenticatedRoute";
+// import { Private, Public } from "@/pages/AuthenticatedRoute";
 
 // const SignInPage = lazy(() => import("./pages/SignInPage"));
 // const ForgotPasswordPage = lazy(() => import("./pages/ForgotPasswordPage"));
