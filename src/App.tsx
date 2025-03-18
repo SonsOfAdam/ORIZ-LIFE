@@ -4,11 +4,11 @@ import AuthProvider from "@/context/AuthContext";
 import IndexPage from "@/pages/IndexPage";
 import { Private, Public } from "@/pages/AuthenticatedRoute";
 
-const SignInPage = lazy(() => import("./pages/SignInPage"));
-const ForgotPasswordPage = lazy(() => import("./pages/ForgotPasswordPage"));
-const ResetPasswordPage = lazy(() => import("./pages/ResetPasswordPage"));
-const DashboardPage = lazy(() => import("./pages/DashboardPage"));
-const TalentManagementPage = lazy(() => import("./pages/TalentManagementPage"));
+// const SignInPage = lazy(() => import("./pages/SignInPage"));
+// const ForgotPasswordPage = lazy(() => import("./pages/ForgotPasswordPage"));
+// const ResetPasswordPage = lazy(() => import("./pages/ResetPasswordPage"));
+// const DashboardPage = lazy(() => import("./pages/DashboardPage"));
+// const TalentManagementPage = lazy(() => import("./pages/TalentManagementPage"));
 
 const App = () => {
   return (
